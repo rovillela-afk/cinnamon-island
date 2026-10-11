@@ -94,7 +94,7 @@ Little or no testing, for lack of hardware on the development machine: Bluetooth
 
 ## What may come next
 
-- Publish to the Cinnamon store (Cinnamon Spices). The folder `package.sh` builds passes the store's automatic checks, and the code follows its review guide (gettext, no blocking I/O, no binary files), so the store version is the same as the one on GitHub. The author has chosen not to submit for now: the store asks authors to review AI-assisted code themselves.
+- Get accepted in the Cinnamon store (Cinnamon Spices). Submitted on 2026-10-11 as [linuxmint/cinnamon-spices-extensions#1171](https://github.com/linuxmint/cinnamon-spices-extensions/pull/1171); the folder `package.sh` builds is what was sent, so the store version is the same as the one on GitHub. Changes the reviewers ask for go into this repository first and are then copied to the pull request.
 - A front end for GNOME. It is a project of its own: blur is done differently and GNOME defaults to Wayland. KDE and Hyprland would need the front end rewritten from scratch.
 - Wayland support, once Cinnamon's matures.
 - Keep the timer and the stopwatch across engine restarts.
