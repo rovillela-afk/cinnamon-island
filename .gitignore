@@ -1,0 +1,19 @@
+# Packages built by package.sh
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets and local configuration: never committed
+.env
+.env.*
+*.pem
+*.key
+
+# Tools and editors (each person's own configuration)
+.claude/
+.vscode/
+.idea/
+*.swp
+*~
